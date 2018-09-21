@@ -9,48 +9,83 @@ html
 {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: center;
-  line-height: 110px;
+  line-height: 120px;
   margin-right: 20px;
+  text-transform: uppercase;
+}
+
+h1
+{
+  font-size: 1.4em;
+  color: white;
+  line-height: 90px;
+  margin-right: 170px;
 }
 
 #menu-debut
 {
   background-color: #C5C5C6;
   flex-basis: 50%;
-  height: 120px;
+  height: 100px;
 }
 
 #menu-present
 {
   background-color: #C5C5C6;
-  flex-basis: 10%;
-  height: 120px;
+  flex-basis: 13%;
+  height: 100px;
+
+}
+
+#menu-present a
+{
+  color: white;
+  text-decoration: none;
 }
 
 #menu-compet
 {
   background-color: #C5C5C6;
-  flex-basis: 10%;
-  height: 120px;
+  flex-basis: 13%;
+  height: 100px;
+}
+
+#menu-compet a
+{
+  color: white;
+  text-decoration: none;
 }
 
 #menu-exp
 {
   background-color: #C5C5C6;
-  flex-basis: 10%;
-  height: 120px;
+  flex-basis: 13%;
+  height: 100px;
+}
+
+#menu-exp a
+{
+  color: white;
+  text-decoration: none;
 }
 
 #menu-contact
 {
   background-color: #C5C5C6;
-  flex-basis: 10%;
-  height: 120px;
+  flex-basis: 13%;
+  height: 100px;
   text-align: left;
   text-indent: 10px;
 }
+
+#menu-contact a
+{
+  color: white;
+  text-decoration: none;
+}
+
 
 .accueil
 {
@@ -120,6 +155,7 @@ justify-content: space-between;
     height: 400px;
   }
 
+/* Partie contact */
   .contact
   {
     display: flex;
@@ -128,9 +164,10 @@ justify-content: space-between;
 
   #text-contact
   {
+
     background-color: grey;
     flex-basis: 100%;
-    height: 200px;
+    height: 290px;
   }
 
 .address
@@ -138,6 +175,7 @@ justify-content: space-between;
   float: left;
   width: 30px;
   height: 30px;
+  margin-top: 3px;
 }
 
 .phone
@@ -145,4 +183,21 @@ justify-content: space-between;
   float: left;
   width: 30px;
   height: 30px;
+  margin-top: 10px;
+}
+
+.mail
+{
+  float: left;
+  width: 30px;
+  height: 30px;
+
+}
+
+#bouton-mail
+{
+  line-height: 35px;
+  text-indent: 20px;
+  text-decoration: none;
+  color: black;
 }
