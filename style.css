@@ -10,14 +10,14 @@ body {
 }
 
 .accueil {
-  height:600px;
+  height:550px;
   background-color: white;
 
 }
 
 .accueil .text-accueil {
   text-align: center;
-  height: 500px;
+  height: 550px;
   background-image: url(wood.jpg);
 }
 
@@ -289,44 +289,75 @@ font-size: 1.8em;
 }
 
 /* Partie contact */
-  .contact {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-  }
 
-  #text-contact {
-
-    background-color: grey;
-    flex-basis: 100%;
-    height: 290px;
-  }
-
-.address {
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin-top: 3px;
+.text-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #343a40;
+  height: 300px;
+  margin-top: 50px;
+  color: #999c93
 }
 
-.phone {
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin-top: 10px;
+#pin {
+  flex-basis: 30%;
 }
 
-.mail {
-  float: left;
-  width: 30px;
-  height: 30px;
-  color: red;
-
+#pin img {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;;
 }
 
-#bouton-mail {
-  line-height: 35px;
-  text-indent: 20px;
-  text-decoration: none;
-  color: black;
+#pin p {
+  margin-top: 20px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#phone {
+  flex-basis: 30%;
+}
+
+#phone img {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;;
+}
+
+#phone p {
+  margin-top: 20px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#mail {
+  flex-basis: 30%;
+}
+
+#mail img {
+  width: 60px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;;
+}
+
+#mail p {
+  margin-top: 20px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#mail a {
+  color: #999c93;
+  text-decoration: underline;
 }
