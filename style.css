@@ -1,119 +1,189 @@
+* {
+  font-family: Trebuchet, arial, georgia;
+}
 html {
   height: 100%;
   width: 100%;
-  background-color: #FFFFFF;
+}
+body {
+    scroll-behavior: smooth;
 }
 
-header .menu {
-  display: flex;
-  height: 600px;
+.accueil {
+  height:600px;
+  background-color: white;
 
 }
 
-.menu {
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+.accueil .text-accueil {
   text-align: center;
-  line-height: 120px;
-  text-transform: uppercase;background-image: url("degrade.jpg");
-  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url(wood.jpg);
 }
 
-#menu-debut {
-  flex-basis: 50%;
-  height: 100px;
-
-}
-
-#menu-present {
-  flex-basis: 13%;
-  height: 100px;
-
-}
-
-#menu-present a {
+.text-accueil {
+  text-align: center;
+  font-size: 1.9em;
+  line-height: 100px;
   color: white;
-  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
 }
-
-#menu-compet {
-  flex-basis: 13%;
-  height: 100px;
-}
-
-#menu-compet a {
-  color: white;
-  text-decoration: none;
-}
-
-#menu-exp {
-  flex-basis: 13%;
-  height: 100px;
-}
-
-#menu-exp a {
-  color: white;
-  text-decoration: none;
-}
-
-#menu-contact {
-  flex-basis: 13%;
-  height: 100px;
-  text-align: left;
-  text-indent: 10px;
-}
-
-#menu-contact a {
-  color: white;
-  text-decoration: none;
-}
-
+/* Présentation */
 .Present {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #343a40;
 }
 
 #text-present {
-
+  color: #999c93;
   flex-basis: 50%;
-  height: 400px;
+  height: 320px;
 }
 
 #img {
 
-  flex-basis: 40%;
-  height: 400px;
+  flex-basis: 35%;
+  height: 320px;
 }
 
 #img img{
 
 }
 
+/* Compétences */
+hr {
+width: 30%;
+background-color: #38004C;
+position: absolute;
+
+}
+
 .compet {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  color: #999c93;
+  margin-top: 50px;
   }
 
-  #text-comp {
-    background-color: #E5EAEA;
-    flex-basis: 48%;
-    height: 500px;
+  #language {
+    background-color: #343a40;
+    flex-basis: 23%;
+    height: 250px;
+    font-size: 1.2em;
+    line-height: 70px;
   }
 
-  #barres {
-    background-color: #E5EAEA;
-    flex-basis: 48%;
-    height: 500px;
+  #language ul li {
+    list-style-type: none;
+    background-image: url(tick.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
   }
+
+  #frameworks {
+    background-color:#343a40;
+    flex-basis: 23%;
+    height: 250px;
+    font-size: 1.2em;
+    line-height: 70px;
+  }
+
+  #frameworks ul li {
+    list-style-type: none;
+    background-image: url(tick.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+  }
+
+  #cms {
+    background-color:#343a40;
+    flex-basis: 23%;
+    height: 250px;
+    font-size: 1.2em;
+    line-height: 70px;
+  }
+
+  #cms ul li {
+    list-style-type: none;
+    background-image: url(tick.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+  }
+
+  #anglais {
+    background-color:#343a40;
+    flex-basis: 23%;
+    height: 250px;
+    font-size: 1.2em;
+    line-height: 70px;
+
+  }
+
+  #anglais ul li {
+    list-style-type: none;
+    background-image: url(tick.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+
+  }
+
+  /* Expériences */
 
   .exp {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
+    color: #999c93;
+    justify-content: space-around;
+  }
+
+  #text-date {
+    background-color: #E5EAEA;
+    flex-basis: 20%;
+    height: 1200px;
+    line-height: 300px;
+    text-align: right;
+  }
+
+  #vert-line {
+    height: 1200px;
+    border-left: 3px solid #999c93;
   }
 
   #text-exp {
+    background-color: #E5EAEA;
+    flex-basis: 70%;
+    height:1200px;
+  }
+
+  /* Formation */
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  #text-form {
+    background-color: #E5EAEA;
+    flex-basis: 100%;
+    height: 400px;
+  }
+
+  /* Intérêts */
+  .int {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  #text-int {
     background-color: #E5EAEA;
     flex-basis: 100%;
     height: 400px;
@@ -123,6 +193,7 @@ header .menu {
   .contact {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 50px;
   }
 
   #text-contact {
@@ -150,6 +221,7 @@ header .menu {
   float: left;
   width: 30px;
   height: 30px;
+  color: red;
 
 }
 
