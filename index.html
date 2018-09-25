@@ -4,57 +4,140 @@
   <meta charset="utf-8" />
   <title>CV Magalie KABELAAN</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <div class="wrapper">
-      <nav class="menu">
-        <h1><div id="menu-debut"></div></h1>
-        <div id="menu-present"><a href="#presentation"><strong>Présentation</strong></a></div>
-        <div id="menu-compet"><a href="#competences">Compétences</a></div>
-        <div id="menu-exp"><a href="#experiences">Expériences</a></div>
-        <div id="menu-contact"><a href="#contact">Contact</a></div>
-      </nav>
-      <div id="big-title">CV Magalie KABELAAN</div>
-    </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link navbar-brand" href="#presentation">Présentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-brand" href="#competences">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-brand" href="#experiences">Expériences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-brand" href="#formation">Formation</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link navbar-brand" href="#interets">Intérêts</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link navbar-brand" href="#contact">Contact</a>
+        </li>
+      </ul>
+
   </header>
 
+  <div class="accueil">
+    <div class="text-accueil">CV Magalie KABELAAN<br />_____<br />Développeuse Web Junior</div>
+  </div>
 
-  <h2 id="presentation">Présentation</h2>
+
   <div class="Present">
     <div id="text-present">
-      <p>
+      <h2 id="presentation">Présentation</h2>
+      <p>Blablabla</p>
     </div>
     <div id="img"><img src="photo-cv.png" alt="photo de Magalie" /></div>
   </div>
-
+<br />
+<br />
   <h2 id="competences">Compétences</h2>
+  <hr />
   <div class="compet">
-    <div id="text-comp">texte compétences</div>
-    <div id="barres">barres de progressions</div>
-  </div>
-
-  <h2 id="experiences">Expériences</h2>
-  <div class="exp">
-    <div id="text-exp">texte expériences</div>
-  </div>
-
-  <h2 id="contact">Contact</h2>
-  <div class="contact">
-    <div id="text-contact">
-      <h2>Mes coordonnées</h2>
-      <img src="pin.svg" alt="flèche" class="address"/>
-      <p>20 rue des Châtaignier<br/>
-        76 610 Le Havre<br/></p>
-        <br/>
-        <img src="phone.svg" alt="téléphone" class="phone" />
-        <p>06 85 85 59 41</p><br/>
-        <br/>
-        <img src="mail.svg" atl="enveloppe" class="mail" />
-        <a href="mailto:magalie.kabelaan@gmail.com" id="bouton-mail">Envoyez-moi un message</a>
-      </div>
+    <div id="language">
+      <h3>Langages :</h3>
+      <ul>
+        <li>HTML 5</li>
+        <li>CSS 3</li>
+        <li>Javascript</li>
+      </ul>
     </div>
+
+    <div id="frameworks">
+      <h3>frameworks :</h3>
+      <ul>
+        <li>Bootstrap 4</li>
+        <li>JQuery</li>
+        <li>Angular JS</li>
+      </ul>
+    </div>
+
+    <div id="cms">
+      <h3>CMS :</h3>
+      <ul>
+        <li>Wordpress</li>
+      </ul>
+    </div>
+
+
+    <div id="anglais">
+      <h3>Langues étrangères :</h3>
+      <ul>
+        <li>Anglais</li>
+        <li>Indonésien</li>
+      </ul>
+    </div>
+</div>
+  <br />
+  <br />
+    <h2 id="experiences">Expériences</h2>
+    <hr />
+    <div class="exp">
+      <div id="text-date">
+        <p>2015 - 2018<br />
+          2014 - 2015<br />
+          2014 - 2015<br />
+          2013<br />
+          2013<br />
+          2012<br />
+          2009<br />
+        </p>
+      </div>
+      <div id="vert-line"></div>
+      <div id="text-exp">texte expériences</div>
+    </div>
+  <br />
+    <h2 id="formation">Formation</h2>
+    <hr />
+    <div class="form">
+      <div id="text-form">texte expériences</div>
+    </div>
+  <br />
+    <h2 id="interets">Intérêts</h2>
+    <hr />
+    <div class="int">
+      <div id="text-int">texte expériences</div>
+    </div>
+  <br />
+    <h2 id="contact">Contact</h2>
+    <hr />
+    <div class="contact">
+      <div id="text-contact">
+        <h2>Mes coordonnées</h2>
+        <img src="pin.svg" alt="flèche" class="address"/>
+        <p>20 rue des Châtaignier<br/>
+          76 610 Le Havre<br/></p>
+          <br/>
+          <img src="phone.svg" alt="téléphone" class="phone" />
+          <p>06 85 85 59 41</p><br/>
+          <br/>
+          <img src="mail.svg" atl="enveloppe" class="mail" />
+          <a href="mailto:magalie.kabelaan@gmail.com" id="bouton-mail">Envoyez-moi un message</a>
+        </div>
+      </div>
 
   </body>
 
