@@ -148,12 +148,20 @@ position: absolute;
   margin-top: 50px;
   }
 
+  .compet img {
+    width: 20px;
+    height: 20px;
+  }
+
   #language {
     background-color: #343a40;
     flex-basis: 23%;
-    height: 250px;
+    height: 350px;
     font-size: 1.2em;
-    line-height: 70px;
+  }
+
+  #language:hover {
+    background-color: #E5EAEA;
   }
 
   #language ul li {
@@ -162,14 +170,28 @@ position: absolute;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  #language h3 {
+    margin-top: 25px;
+    margin-left: 30px;
   }
 
   #frameworks {
-    background-color:#343a40;
+    background-color: #343a40;
     flex-basis: 23%;
-    height: 250px;
+    height: 350px;
     font-size: 1.2em;
-    line-height: 70px;
+  }
+
+  #frameworks:hover {
+    background-color: #E5EAEA;
+  }
+
+  #frameworks h3 {
+    margin-top: 25px;
+    margin-left: 30px;
   }
 
   #frameworks ul li {
@@ -178,14 +200,23 @@ position: absolute;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 20px;
+    margin-top: 20px;
   }
 
   #cms {
-    background-color:#343a40;
-    flex-basis: 23%;
-    height: 250px;
+    background-color: #343a40;
+    flex-basis: 22%;
+    height: 350px;
     font-size: 1.2em;
-    line-height: 70px;
+  }
+
+  #cms:hover {
+    background-color: #E5EAEA;
+  }
+
+  #cms h3 {
+    margin-top: 25px;
+    margin-left: 30px;
   }
 
   #cms ul li {
@@ -194,15 +225,18 @@ position: absolute;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 20px;
+    margin-top: 20px;
   }
 
   #anglais {
-    background-color:#343a40;
-    flex-basis: 23%;
-    height: 250px;
+    background-color: #343a40;
+    flex-basis: 24%;
+    height: 350px;
     font-size: 1.2em;
-    line-height: 70px;
+  }
 
+  #anglais:hover {
+    background-color: #E5EAEA;
   }
 
   #anglais ul li {
@@ -211,7 +245,12 @@ position: absolute;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 20px;
+    margin-top: 20px;
+  }
 
+  #anglais h3 {
+    margin-top: 25px;
+    margin-left: 30px;
   }
 
   /* Expériences */
@@ -365,6 +404,11 @@ font-size: 1.8em;
   margin-top: 80px;
 }
 
+#github img:hover {
+
+  background: url(github-white.png) 0 0 no-repeat;
+}
+
 #github p {
   margin-top: 20px;
   text-align: center;
@@ -421,10 +465,11 @@ font-size: 1.8em;
   margin-right: auto;
   display: block;
   margin-top: 80px;
+  background-color: #343a40;
 }
 
 #mail img:hover {
-  color: white;
+
 }
 
 #mail p {
