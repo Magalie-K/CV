@@ -28,6 +28,8 @@ body {
   color: white;
   text-shadow: 2px 2px 2px black;
 }
+
+
 /* Présentation */
 .Present {
   display: flex;
@@ -478,25 +480,3 @@ font-size: 1.8em;
 }
 
 /* Responsive */
-@media(min-width: 768px) and (max-width: 1388px) {
-.present {
-
-}
-
-.form {
-
-}
-
-.compet {
-
-}
-
-.exp {
-
-}
-
-#conctact{
-
-}
-
-}
