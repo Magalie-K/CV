@@ -38,8 +38,16 @@ body {
 
 #text-present {
   color: #999c93;
-  flex-basis: 50%;
+  flex-basis: 45%;
   height: 320px;
+  text-align: center;
+  margin-left: 70px;
+  line-height: 40px;
+}
+
+#text-present h2 {
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 #img {
@@ -54,12 +62,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  color: #999c93;
   justify-content: space-around;
+  background-color: white;
+  color: #999c93;
 }
 
 #date-form {
-  background-color: white;
   flex-basis: 40%;
   height: 580px;
   text-align: right;
@@ -85,10 +93,8 @@ body {
 }
 
 #text-form {
-  background-color: #E5EAEA;
   flex-basis: 58%;
   height:580px;
-  background-color: white;
   line-height: 40px;
 }
 
@@ -99,14 +105,31 @@ body {
 #form-1 {
   height: 200px;
   margin-top: 20px;
+  background-color: white;
+}
+
+#form-1:hover {
+  background-color: #E5EAEA;
 }
 
 #form-2 {
   height: 200px;
+  background-color: white;
+}
+
+#form-2:hover {
+  background-color: #E5EAEA;
+
 }
 
 #form-3 {
   height: 200px;
+  background-color: white;
+}
+
+#form-3:hover {
+  background-color: #E5EAEA;
+
 }
 
 /* Compétences */
@@ -240,35 +263,64 @@ position: absolute;
   }
 
   #text-exp {
-    background-color: #E5EAEA;
     flex-basis: 58%;
     height:1200px;
-    background-color: white;
   }
 
   #text-1 {
     margin-top: 20px;
     height: 200px;
+    background-color: white;
   }
+
+  #text-1:hover {
+    background-color: #E5EAEA;
+  }
+
 
   #text-2 {
     height: 200px;
+    background-color: white;
+  }
+
+  #text-2:hover {
+    background-color: #E5EAEA;
   }
 
   #text-3 {
     height: 200px;
+    background-color: white;
+  }
+
+  #text-3:hover {
+    background-color: #E5EAEA;
   }
 
   #text-4 {
     height: 200px;
+    background-color: white;
+  }
+
+  #text-4:hover {
+    background-color: #E5EAEA;
   }
 
   #text-5 {
     height: 250px;
+    background-color: white;
+  }
+
+  #text-5:hover {
+    background-color: #E5EAEA;
   }
 
   #text-6 {
     height: 200px;
+    background-color: white;
+  }
+
+  #text-6:hover {
+    background-color: #E5EAEA;
   }
 
   /* Intérêts */
@@ -300,64 +352,106 @@ font-size: 1.8em;
   color: #999c93
 }
 
-#pin {
-  flex-basis: 30%;
+#github {
+  flex-basis: 23%;
 }
 
-#pin img {
-  width: 60px;
-  height: 60px;
+#github img {
+  width: 140px;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 50px;;
+  margin-top: 80px;
 }
 
-#pin p {
+#github p {
   margin-top: 20px;
-  line-height: 50px;
   text-align: center;
+  font-weight: bold;
 }
 
-#phone {
-  flex-basis: 30%;
+#linkedin
+{
+  flex-basis: 23%;
 }
 
-#phone img {
-  width: 60px;
-  height: 60px;
+#linkedin img {
+  width: 80px;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 50px;;
+  margin-top: 80px;
 }
 
-#phone p {
+#linkedin p {
   margin-top: 20px;
-  line-height: 50px;
   text-align: center;
+  font-weight: bold;
+}
+
+#cv {
+  flex-basis: 23%;
+}
+
+#cv img {
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 80px;;
+}
+
+#cv p {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
 }
 
 #mail {
-  flex-basis: 30%;
+  flex-basis: 23%;
 }
 
 #mail img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 50px;;
+  margin-top: 80px;
+}
+
+#mail img:hover {
+  color: white;
 }
 
 #mail p {
-  margin-top: 20px;
-  line-height: 50px;
   text-align: center;
+  font-weight: bold;
 }
 
-#mail a {
-  color: #999c93;
-  text-decoration: underline;
+/* Responsive */
+@media(min-width: 768px) and (max-width: 1388px) {
+.present {
+
+}
+
+.form {
+
+}
+
+.compet {
+
+}
+
+.exp {
+
+}
+
+#conctact{
+
+}
+
 }
