@@ -10,23 +10,17 @@ body {
 }
 
 .accueil {
-/* background-color: #92bda3; */
-background-image: url(dandelion2.jpg);
-height: 590px;
-background-size: 1300px 590px;
-z-index: 2;
-opacity: 0.7;
+  background-image: url(dandelion2.jpg);
+  height: 590px;
+  background-size: 1300px 590px;
+  opacity: 0.7;
 }
 
 .accueil .text-accueil {
-  text-align: center;
-  line-height: 180px;
-  background-repeat: no-repeat;
+  margin-top: 180px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
 .text-accueil {
@@ -37,6 +31,7 @@ opacity: 0.7;
   text-shadow: 4px 4px 4px black;
   font-weight: bold;
 }
+
 
 #animation {
   width: 200px;
@@ -157,7 +152,7 @@ body {
    width: 16px;
    height: 16px;
    border-radius: 50%;
-   border: 2px solid #92bda3;
+   border: 2px solid #999c93;
    background: #E5EAEA;
    margin-top: 10px;
    z-index: 9999
@@ -363,7 +358,7 @@ font-size: 1.8em;
 /* Partie contact */
 
 #contact {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .text-contact {
@@ -373,90 +368,22 @@ font-size: 1.8em;
   color: #999c93
 }
 
-.github a{
-  background-color: #343a40;
-  font-size: 10rem;
-  text-align: center;
+.icone a{
+  font-size: 9rem;
   color: #999c93;
 }
 
-.github:hover a{
-color: #E5EAEA;
+.icone:hover a{
+color: white;
 }
 
-.github img {
-  width: 90px;
-  height: 90px;
-  margin-top: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.github p {
-  margin-top: 20px;
+.icone {
   text-align: center;
-  font-weight: bold;
-}
-
-
-.linkedin img {
-  width: 80px;
-  height: 80px;
-  margin-top: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.linkedin {
   background-color: #343a40;
 }
 
-.linkedin p {
-  margin-top: 20px;
+.icone p {
   text-align: center;
   font-weight: bold;
+  border-bottom: 20px;
 }
-
-.cv img {
-  width: 80px;
-  height: 80px;
-  margin-top: 80px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cv {
-  background-color: #343a40;
-}
-
-.cv p {
-  margin-top: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-
-.mail img {
-  width: 80px;
-  height: 80px;
-  margin-top: 80px;
-  background-color: #343a40;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mail {
-  background-color: #343a40;
-}
-
-.mail p {
-  text-align: center;
-  font-weight: bold;
-}
-
-/* Responsive */
