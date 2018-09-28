@@ -9,11 +9,18 @@ body {
     scroll-behavior: smooth;
 }
 
+
+
+/* Accueil */
 .accueil {
   background-image: url(dandelion2.jpg);
   height: 590px;
   background-size: 1300px 590px;
   opacity: 0.7;
+}
+
+.accueil:hover {
+  filter:sepia(100%);
 }
 
 .accueil .text-accueil {
@@ -38,7 +45,7 @@ body {
   height: 3px;
   background-color: #E5EAEA;
   transition-property: transform;
-  transition-duration: 5s;
+  transition-duration: 1s;
   transition-timing-function: ease;
   box-shadow: 4px 4px 4px black;
   margin-left: auto;
@@ -50,6 +57,10 @@ body {
 }
 
 /* Présentation */
+
+#presentation:target {
+  padding-top: 2em;
+  }
 
 .Present {
     background-color: #343a40;
@@ -65,13 +76,19 @@ body {
 
 .img img {
   width: 300px;
-  height: 300px;
   margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 /* FORMATION */
+
  #formation {
-   margin-top: 30px;
- }
+  margin-top: 40px;
+}
+ #formation:target {
+   padding-top: 2em;
+   }
 
 * {
    -webkit-box-sizing: border-box;
@@ -130,10 +147,6 @@ body {
    margin-left: 20px;
 }
 
-.timeline-block-right:hover {
-  background-color: #E5EAEA;
-}
-
 .timeline-block-left {
    float: left;
    direction: rtl;
@@ -142,10 +155,6 @@ body {
 
 .text-reverse {
   direction: ltr;
-}
-
-.timeline-block-left:hover {
-  background-color: #E5EAEA;
 }
 
 .marker {
@@ -212,11 +221,22 @@ body {
 }
 
 
-/* compétences */
 
-#competences{
-  margin-top: 40px;
+
+
+
+
+
+
+
+/* compétences */
+#competences {
+    margin-top: 40px;
 }
+
+#competences:target {
+  padding-top: 2em;
+  }
 
 hr {
 width: 30%;
@@ -251,93 +271,21 @@ position: absolute;
   /* Expériences */
 
   #experiences {
-    margin-top: 40px;
+      margin-top: 40px;
   }
 
-  .exp {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    color: #999c93;
-    justify-content: space-around;
-  }
+  #experiences:target {
+    padding-top: 2em;
+    }
 
-  #text-date {
-    background-color: white;
-    flex-basis: 40%;
-    height: 1500px;
-    text-align: right;
-    font-size: 1.7em;
-  }
-
-  #date-1{
-    height: 250px;
-    margin-top: 40px;
-  }
-
-  .date-2 {
-    height: 250px;
-  }
-
-  #date-3 {
-    height: 200px;
-  }
-
-  #date-4 {
-    height: 200px;
-  }
-
-  #date-5 {
-    height: 250px;
-  }
-
-  #date-6 {
-    height: 200px;
-  }
-
-  #vert-line2 {
-    height: 1450px;
-    border-left: 3px solid #999c93;
-  }
-
-  #text-exp {
-    flex-basis: 58%;
-    height:1200px;
-  }
-
-  #text-1 {
-    margin-top: 20px;
-    height: 250px;
-    background-color: white;
-  }
-
-  #text-1:hover {
-    background-color: #E5EAEA;
-  }
-
-
-  .text-2 {
-    height: 250px;
-    background-color: white;
-  }
-
-  .text-2:hover {
-    background-color: #E5EAEA;
-  }
-
-  #text-6 {
-    height: 200px;
-    background-color: white;
-  }
-
-  #text-6:hover {
-    background-color: #E5EAEA;
-  }
 
   /* Intérêts */
 #interets {
   margin-top: 40px;
 }
+#interets:target {
+  padding-top: 2em;
+  }
 
 #carouselExampleIndicators {
   margin-top: 50px;
@@ -358,7 +306,7 @@ font-size: 1.8em;
 /* Partie contact */
 
 #contact {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .text-contact {
@@ -369,7 +317,7 @@ font-size: 1.8em;
 }
 
 .icone a{
-  font-size: 9rem;
+  font-size: 8rem;
   color: #999c93;
 }
 
