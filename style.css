@@ -1,4 +1,4 @@
-* {
+*{
   font-family: Trebuchet, arial, georgia;
 }
 html {
@@ -9,8 +9,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-
 /* Accueil */
 .accueil {
   background-image: url(dandelion2.jpg);
@@ -18,18 +16,15 @@ body {
   background-size: 1300px 590px;
   opacity: 0.7;
 }
-
 .accueil:hover {
   filter:sepia(100%);
 }
-
 .accueil .text-accueil {
   margin-top: 180px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .text-accueil {
   text-align: center;
   font-size: 2.3em;
@@ -38,8 +33,6 @@ body {
   text-shadow: 4px 4px 4px black;
   font-weight: bold;
 }
-
-
 #animation {
   width: 200px;
   height: 3px;
@@ -51,21 +44,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
 #animation:hover {
   transform: translateX(300px);
 }
 
 /* Présentation */
-
 #presentation:target {
   padding-top: 2em;
   }
-
 .Present {
     background-color: #343a40;
 }
-
 .text-present {
   color: #999c93;
   text-align: center;
@@ -73,7 +62,6 @@ body {
   margin-right: auto;
   line-height: 50px;
 }
-
 .img img {
   width: 300px;
   margin-top: 15px;
@@ -81,30 +69,26 @@ body {
   margin-right: auto;
   display: block;
 }
-/* FORMATION */
 
+/* FORMATION */
  #formation {
   margin-top: 40px;
 }
  #formation:target {
    padding-top: 2em;
    }
-
 * {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
    outline: none;
 }
-
 body {
    margin: 0;
    padding: 30px 0;
    font-family: 'Roboto', sans-serif;
    background: white;
 }
-
-
 .container {
    width: 80%;
    padding: 50px 0;
@@ -112,7 +96,6 @@ body {
    position: relative;
    overflow: hidden;
 }
-
 .container:before {
    content: '';
    position: absolute;
@@ -124,7 +107,6 @@ body {
    background: #999c93;
    z-index: 1
 }
-
 .timeline-block {
    width: -webkit-calc(50% + 8px);
    width: -moz-calc(50% + 8px);
@@ -138,41 +120,33 @@ body {
    -moz-box-pack: justify;
    justify-content: space-between;
    clear: both;
-
 }
-
 .timeline-block-right {
    float: right;
    background-color: white;
    margin-left: 20px;
 }
-
 .timeline-block-left {
    float: left;
    direction: rtl;
    background-color: white;
 }
-
 .text-reverse {
   direction: ltr;
 }
-
 .marker {
    width: 16px;
    height: 16px;
    border-radius: 50%;
    border: 2px solid #999c93;
-   background: #E5EAEA;
+   background:  #999c93;
    margin-top: 10px;
-   z-index: 9999
 }
-
 .timeline-content {
    width: 95%;
    padding: 0 15px;
    color: #999c93;
 }
-
 .timeline-content h3 {
    margin-top: 5px;
    margin-bottom: 5px;
@@ -181,12 +155,10 @@ body {
    text-transform: uppercase;
    line-height: 40px;
 }
-
 .timeline-content span {
    font-size: 20px;
    color: #a4a4a4;
 }
-
 .timeline-content p {
    font-size: 14px;
    line-height: 1.5em;
@@ -194,12 +166,9 @@ body {
    color: #999c93;
    line-height: 30px;
 }
-
 .timeline-content p ul li {
   line-height: 40px;
 }
-
-
 
 @media screen and (max-width: 768px) {
    .container:before {
@@ -219,46 +188,30 @@ body {
       direction: ltr;
    }
 }
-
-
-
-
-
-
-
-
-
-
 /* compétences */
 #competences {
     margin-top: 40px;
 }
-
 #competences:target {
   padding-top: 2em;
   }
-
 hr {
 width: 30%;
 background-color: #38004C;
 position: absolute;
 }
-
 .compet {
   color: #999c93;
   margin-top: 50px;
   background-color: #343a40;
   }
-
   .frameworks h3{
     margin-top: 25px;
     margin-left: 30px;
   }
-
   .frameworks:hover {
     background-color: #E5EAEA;
   }
-
   .frameworks ul li {
     list-style-type: none;
     background-image: url(tick.png);
@@ -269,15 +222,12 @@ position: absolute;
   }
 
   /* Expériences */
-
   #experiences {
       margin-top: 40px;
   }
-
   #experiences:target {
     padding-top: 2em;
     }
-
 
   /* Intérêts */
 #interets {
@@ -286,17 +236,14 @@ position: absolute;
 #interets:target {
   padding-top: 2em;
   }
-
 #carouselExampleIndicators {
   margin-top: 50px;
 }
-
 #carouselExampleIndicators h5 {
 font-size: 2em;
  color: white;
  text-shadow: 2px 2px 2px black;
 }
-
 #carouselExampleIndicators p {
 font-size: 1.8em;
  color: white;
@@ -304,32 +251,26 @@ font-size: 1.8em;
 }
 
 /* Partie contact */
-
 #contact {
   margin-top: 40px;
 }
-
 .text-contact {
   background-color: #343a40;
   height: 300px;
   margin-top: 50px;
   color: #999c93
 }
-
 .icone a{
   font-size: 8rem;
   color: #999c93;
 }
-
 .icone:hover a{
 color: white;
 }
-
 .icone {
   text-align: center;
   background-color: #343a40;
 }
-
 .icone p {
   text-align: center;
   font-weight: bold;
