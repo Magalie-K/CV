@@ -13,10 +13,8 @@ body {
 .accueil {
   background-image: url(dandelion2.jpg);
   height: 590px;
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.7;
+  background-size: 1300px 590px;
+opacity: 0.7;
 }
 .accueil:hover {
   filter:sepia(100%);
